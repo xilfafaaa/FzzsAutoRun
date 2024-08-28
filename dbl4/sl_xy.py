@@ -25,7 +25,8 @@ def script_action():
         time.sleep(0.1)  # 防止点击过快
         # 每秒按一次键盘1
         pyautogui.press('1')
-        time.sleep(1)
+        time.sleep(0.9)
+        pyautogui.press('2')
 
 
 def start_script():
